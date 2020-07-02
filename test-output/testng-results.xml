@@ -5,13 +5,13 @@
       <![CDATA[TestNG Assignment -> testMultiply assertion passed for inputs 32, 4]]>
     </line>
     <line>
-      <![CDATA[TestNG Assignment -> testExponent assertion passed for inputs 1, 2]]>
+      <![CDATA[TestNG Assignment -> testExponent assertion passed for inputs 2, 2]]>
     </line>
     <line>
-      <![CDATA[TestNG Assignment -> testExponent assertion passed for inputs 2, 1]]>
+      <![CDATA[TestNG Assignment -> testExponent assertion passed for inputs 3, 3]]>
     </line>
     <line>
-      <![CDATA[TestNG Assignment -> testExponent assertion passed for inputs 1, 1]]>
+      <![CDATA[TestNG Assignment -> testExponent assertion passed for inputs 4, 4]]>
     </line>
     <line>
       <![CDATA[TestNG Assignment -> testAdd assertion passed for inputs 16, 2]]>
@@ -20,7 +20,7 @@
       <![CDATA[TestNG Assignment -> testDivide assertion passed for inputs 16, 2]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-07-01T18:12:02 AST" name="Assignment" finished-at="2020-07-01T18:12:02 AST" duration-ms="123">
+  <suite started-at="2020-07-02T16:35:51 AST" name="Assignment" finished-at="2020-07-02T16:35:52 AST" duration-ms="337">
     <groups>
       <group name="div">
         <method signature="assignment1.testDivide(int, int)[pri:0, instance:com.assignments.assignment1@124c278f]" name="testDivide" class="com.assignments.assignment1"/>
@@ -35,28 +35,9 @@
         <method signature="assignment1.testExponent(int, int)[pri:0, instance:com.assignments.assignment1@4c15e7fd]" name="testExponent" class="com.assignments.assignment1"/>
       </group> <!-- exp -->
     </groups>
-    <test started-at="2020-07-01T18:12:02 AST" name="TestNG Assignment - Test 1" finished-at="2020-07-01T18:12:02 AST" duration-ms="57">
+    <test started-at="2020-07-02T16:35:51 AST" name="TestNG Assignment - Test 1" finished-at="2020-07-02T16:35:52 AST" duration-ms="201">
       <class name="com.assignments.assignment1">
-        <test-method signature="testExponent(int, int)[pri:0, instance:com.assignments.assignment1@4c15e7fd]" started-at="2020-07-01T18:12:02 AST" name="testExponent" data-provider="numbers" finished-at="2020-07-01T18:12:02 AST" duration-ms="10" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[TestNG Assignment -> testExponent assertion passed for inputs 1, 2]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testExponent -->
-        <test-method signature="testMultiply(int, int)[pri:0, instance:com.assignments.assignment1@4c15e7fd]" started-at="2020-07-01T18:12:02 AST" name="testMultiply" finished-at="2020-07-01T18:12:02 AST" duration-ms="9" status="PASS">
+        <test-method signature="testMultiply(int, int)[pri:0, instance:com.assignments.assignment1@4c15e7fd]" started-at="2020-07-02T16:35:51 AST" name="testMultiply" finished-at="2020-07-02T16:35:51 AST" duration-ms="37" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,7 +56,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testMultiply -->
-        <test-method signature="testExponent(int, int)[pri:0, instance:com.assignments.assignment1@4c15e7fd]" started-at="2020-07-01T18:12:02 AST" name="testExponent" data-provider="numbers" finished-at="2020-07-01T18:12:02 AST" duration-ms="4" status="PASS">
+        <test-method signature="testExponent(int, int)[pri:0, instance:com.assignments.assignment1@4c15e7fd]" started-at="2020-07-02T16:35:51 AST" name="testExponent" data-provider="numbers" finished-at="2020-07-02T16:35:51 AST" duration-ms="40" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,40 +65,59 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[1]]>
+                <![CDATA[2]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[TestNG Assignment -> testExponent assertion passed for inputs 2, 1]]>
+              <![CDATA[TestNG Assignment -> testExponent assertion passed for inputs 2, 2]]>
             </line>
           </reporter-output>
         </test-method> <!-- testExponent -->
-        <test-method signature="testExponent(int, int)[pri:0, instance:com.assignments.assignment1@4c15e7fd]" started-at="2020-07-01T18:12:02 AST" name="testExponent" data-provider="numbers" finished-at="2020-07-01T18:12:02 AST" duration-ms="2" status="PASS">
+        <test-method signature="testExponent(int, int)[pri:0, instance:com.assignments.assignment1@4c15e7fd]" started-at="2020-07-02T16:35:52 AST" name="testExponent" data-provider="numbers" finished-at="2020-07-02T16:35:52 AST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[1]]>
+                <![CDATA[3]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[1]]>
+                <![CDATA[3]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[TestNG Assignment -> testExponent assertion passed for inputs 1, 1]]>
+              <![CDATA[TestNG Assignment -> testExponent assertion passed for inputs 3, 3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExponent -->
+        <test-method signature="testExponent(int, int)[pri:0, instance:com.assignments.assignment1@4c15e7fd]" started-at="2020-07-02T16:35:52 AST" name="testExponent" data-provider="numbers" finished-at="2020-07-02T16:35:52 AST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG Assignment -> testExponent assertion passed for inputs 4, 4]]>
             </line>
           </reporter-output>
         </test-method> <!-- testExponent -->
       </class> <!-- com.assignments.assignment1 -->
     </test> <!-- TestNG Assignment - Test 1 -->
-    <test started-at="2020-07-01T18:12:02 AST" name="TestNG Assignment - Test 2" finished-at="2020-07-01T18:12:02 AST" duration-ms="6">
+    <test started-at="2020-07-02T16:35:52 AST" name="TestNG Assignment - Test 2" finished-at="2020-07-02T16:35:52 AST" duration-ms="6">
       <class name="com.assignments.assignment1">
-        <test-method signature="testDivide(int, int)[pri:0, instance:com.assignments.assignment1@124c278f]" started-at="2020-07-01T18:12:02 AST" name="testDivide" finished-at="2020-07-01T18:12:02 AST" duration-ms="2" status="PASS">
+        <test-method signature="testDivide(int, int)[pri:0, instance:com.assignments.assignment1@124c278f]" started-at="2020-07-02T16:35:52 AST" name="testDivide" finished-at="2020-07-02T16:35:52 AST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -136,7 +136,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testDivide -->
-        <test-method signature="testAdd(int, int)[pri:0, instance:com.assignments.assignment1@124c278f]" started-at="2020-07-01T18:12:02 AST" name="testAdd" finished-at="2020-07-01T18:12:02 AST" duration-ms="2" status="PASS">
+        <test-method signature="testAdd(int, int)[pri:0, instance:com.assignments.assignment1@124c278f]" started-at="2020-07-02T16:35:52 AST" name="testAdd" finished-at="2020-07-02T16:35:52 AST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>

@@ -14,9 +14,9 @@ public class assignment1 {
 	@DataProvider( name="numbers" ) // Item 2, Data providers
 	public Object[][] numbers() {
 		return new Object[][] {
-			{1, 2},
-			{2, 1},
-			{1, 1}
+			{2, 2},
+			{3, 3},
+			{4, 4}
 		};
 	}
 	
