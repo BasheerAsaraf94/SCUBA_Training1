@@ -5,9 +5,8 @@
     <classes>
       <class name="com.assignments.assignment1">
         <methods>
-          <include name="testMultiply"/>
-          <include name="testAdd"/>
-          <include name="testDivide"/>
+          <include name="Basic"/>
+          <include name="Scientific"/>
         </methods>
       </class> <!-- com.assignments.assignment1 -->
     </classes>
