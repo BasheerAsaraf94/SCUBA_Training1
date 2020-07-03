@@ -8,16 +8,16 @@
       <![CDATA[Actual - 2.0 Expected - 22.0]]>
     </line>
     <line>
-      <![CDATA[Actual - 6 Expected - 6]]>
-    </line>
-    <line>
       <![CDATA[Actual - 1.0 Expected - 221.0]]>
     </line>
     <line>
-      <![CDATA[Actual - 36 Expected - 36]]>
+      <![CDATA[Actual - 6 Expected - 6]]>
     </line>
     <line>
       <![CDATA[Actual - 3.0 Expected - 23.0]]>
+    </line>
+    <line>
+      <![CDATA[Actual - 36 Expected - 36]]>
     </line>
     <line>
       <![CDATA[Actual - -1 Expected - -1]]>
@@ -56,7 +56,7 @@
       <![CDATA[Actual - 0 Expected - 0]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-07-03T03:07:45 AST" name="Assignment" finished-at="2020-07-03T03:07:45 AST" duration-ms="144">
+  <suite started-at="2020-07-03T03:15:49 AST" name="Assignment" finished-at="2020-07-03T03:15:49 AST" duration-ms="137">
     <groups>
       <group name="Basic">
         <method signature="assignment1.calcDivReal(int, int, double)[pri:0, instance:com.assignments.assignment1@223f3642]" name="calcDivReal" class="com.assignments.assignment1"/>
@@ -69,33 +69,9 @@
         <method signature="assignment1.calcModulus(int, int, int)[pri:0, instance:com.assignments.assignment1@6b26e945]" name="calcModulus" class="com.assignments.assignment1"/>
       </group> <!-- Scientific -->
     </groups>
-    <test started-at="2020-07-03T03:07:45 AST" name="TestNG Assignment - Test 1" finished-at="2020-07-03T03:07:45 AST" duration-ms="72">
+    <test started-at="2020-07-03T03:15:49 AST" name="TestNG Assignment - Test 1" finished-at="2020-07-03T03:15:49 AST" duration-ms="73">
       <class name="com.assignments.assignment1">
-        <test-method signature="calcMultiplication(int, int, int)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:07:45 AST" name="calcMultiplication" data-provider="multiplyData" finished-at="2020-07-03T03:07:45 AST" duration-ms="13" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Actual - 2 Expected - 2]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- calcMultiplication -->
-        <test-method signature="calcDivReal(int, int, double)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:07:45 AST" name="calcDivReal" data-provider="divRealData" finished-at="2020-07-03T03:07:45 AST" duration-ms="13" status="PASS">
+        <test-method signature="calcDivReal(int, int, double)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:15:49 AST" name="calcDivReal" data-provider="divRealData" finished-at="2020-07-03T03:15:49 AST" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,7 +95,31 @@
             </line>
           </reporter-output>
         </test-method> <!-- calcDivReal -->
-        <test-method signature="calcDivReal(int, int, double)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:07:45 AST" name="calcDivReal" data-provider="divRealData" finished-at="2020-07-03T03:07:45 AST" duration-ms="2" status="PASS">
+        <test-method signature="calcMultiplication(int, int, int)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:15:49 AST" name="calcMultiplication" data-provider="multiplyData" finished-at="2020-07-03T03:15:49 AST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Actual - 2 Expected - 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- calcMultiplication -->
+        <test-method signature="calcDivReal(int, int, double)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:15:49 AST" name="calcDivReal" data-provider="divRealData" finished-at="2020-07-03T03:15:49 AST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,7 +143,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- calcDivReal -->
-        <test-method signature="calcMultiplication(int, int, int)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:07:45 AST" name="calcMultiplication" data-provider="multiplyData" finished-at="2020-07-03T03:07:45 AST" duration-ms="2" status="PASS">
+        <test-method signature="calcMultiplication(int, int, int)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:15:49 AST" name="calcMultiplication" data-provider="multiplyData" finished-at="2020-07-03T03:15:49 AST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,7 +167,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- calcMultiplication -->
-        <test-method signature="calcDivReal(int, int, double)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:07:45 AST" name="calcDivReal" data-provider="divRealData" finished-at="2020-07-03T03:07:45 AST" duration-ms="2" status="PASS">
+        <test-method signature="calcDivReal(int, int, double)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:15:49 AST" name="calcDivReal" data-provider="divRealData" finished-at="2020-07-03T03:15:49 AST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,7 +191,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- calcDivReal -->
-        <test-method signature="calcMultiplication(int, int, int)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:07:45 AST" name="calcMultiplication" data-provider="multiplyData" finished-at="2020-07-03T03:07:45 AST" duration-ms="2" status="PASS">
+        <test-method signature="calcMultiplication(int, int, int)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:15:49 AST" name="calcMultiplication" data-provider="multiplyData" finished-at="2020-07-03T03:15:49 AST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -215,7 +215,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- calcMultiplication -->
-        <test-method signature="calcSubraction(int, int, int)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:07:45 AST" name="calcSubraction" data-provider="subractionData" finished-at="2020-07-03T03:07:45 AST" duration-ms="2" status="PASS">
+        <test-method signature="calcSubraction(int, int, int)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:15:49 AST" name="calcSubraction" data-provider="subractionData" finished-at="2020-07-03T03:15:49 AST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -239,7 +239,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- calcSubraction -->
-        <test-method signature="calcSubraction(int, int, int)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:07:45 AST" name="calcSubraction" data-provider="subractionData" finished-at="2020-07-03T03:07:45 AST" duration-ms="1" status="PASS">
+        <test-method signature="calcSubraction(int, int, int)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:15:49 AST" name="calcSubraction" data-provider="subractionData" finished-at="2020-07-03T03:15:49 AST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -263,7 +263,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- calcSubraction -->
-        <test-method signature="calcSubraction(int, int, int)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:07:45 AST" name="calcSubraction" data-provider="subractionData" finished-at="2020-07-03T03:07:45 AST" duration-ms="1" status="PASS">
+        <test-method signature="calcSubraction(int, int, int)[pri:0, instance:com.assignments.assignment1@223f3642]" started-at="2020-07-03T03:15:49 AST" name="calcSubraction" data-provider="subractionData" finished-at="2020-07-03T03:15:49 AST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -289,9 +289,9 @@
         </test-method> <!-- calcSubraction -->
       </class> <!-- com.assignments.assignment1 -->
     </test> <!-- TestNG Assignment - Test 1 -->
-    <test started-at="2020-07-03T03:07:45 AST" name="TestNG Assignment - Test 2" finished-at="2020-07-03T03:07:45 AST" duration-ms="15">
+    <test started-at="2020-07-03T03:15:49 AST" name="TestNG Assignment - Test 2" finished-at="2020-07-03T03:15:49 AST" duration-ms="12">
       <class name="com.assignments.assignment1">
-        <test-method signature="calcExponent(double, double, double)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:07:45 AST" name="calcExponent" data-provider="exponentData" finished-at="2020-07-03T03:07:45 AST" duration-ms="1" status="PASS">
+        <test-method signature="calcExponent(double, double, double)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:15:49 AST" name="calcExponent" data-provider="exponentData" finished-at="2020-07-03T03:15:49 AST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -315,7 +315,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- calcExponent -->
-        <test-method signature="calcInverse(int, double)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:07:45 AST" name="calcInverse" data-provider="inverseData" finished-at="2020-07-03T03:07:45 AST" duration-ms="2" status="PASS">
+        <test-method signature="calcInverse(int, double)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:15:49 AST" name="calcInverse" data-provider="inverseData" finished-at="2020-07-03T03:15:49 AST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -334,7 +334,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- calcInverse -->
-        <test-method signature="calcExponent(double, double, double)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:07:45 AST" name="calcExponent" data-provider="exponentData" finished-at="2020-07-03T03:07:45 AST" duration-ms="1" status="PASS">
+        <test-method signature="calcExponent(double, double, double)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:15:49 AST" name="calcExponent" data-provider="exponentData" finished-at="2020-07-03T03:15:49 AST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -358,7 +358,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- calcExponent -->
-        <test-method signature="calcExponent(double, double, double)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:07:45 AST" name="calcExponent" data-provider="exponentData" finished-at="2020-07-03T03:07:45 AST" duration-ms="1" status="PASS">
+        <test-method signature="calcExponent(double, double, double)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:15:49 AST" name="calcExponent" data-provider="exponentData" finished-at="2020-07-03T03:15:49 AST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -382,7 +382,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- calcExponent -->
-        <test-method signature="calcInverse(int, double)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:07:45 AST" name="calcInverse" data-provider="inverseData" finished-at="2020-07-03T03:07:45 AST" duration-ms="1" status="PASS">
+        <test-method signature="calcInverse(int, double)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:15:49 AST" name="calcInverse" data-provider="inverseData" finished-at="2020-07-03T03:15:49 AST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -401,7 +401,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- calcInverse -->
-        <test-method signature="calcInverse(int, double)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:07:45 AST" name="calcInverse" data-provider="inverseData" finished-at="2020-07-03T03:07:45 AST" duration-ms="1" status="PASS">
+        <test-method signature="calcInverse(int, double)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:15:49 AST" name="calcInverse" data-provider="inverseData" finished-at="2020-07-03T03:15:49 AST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -420,7 +420,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- calcInverse -->
-        <test-method signature="calcModulus(int, int, int)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:07:45 AST" name="calcModulus" data-provider="modulusData" finished-at="2020-07-03T03:07:45 AST" duration-ms="1" status="PASS">
+        <test-method signature="calcModulus(int, int, int)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:15:49 AST" name="calcModulus" data-provider="modulusData" finished-at="2020-07-03T03:15:49 AST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -444,7 +444,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- calcModulus -->
-        <test-method signature="calcModulus(int, int, int)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:07:45 AST" name="calcModulus" data-provider="modulusData" finished-at="2020-07-03T03:07:45 AST" duration-ms="0" status="PASS">
+        <test-method signature="calcModulus(int, int, int)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:15:49 AST" name="calcModulus" data-provider="modulusData" finished-at="2020-07-03T03:15:49 AST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -468,7 +468,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- calcModulus -->
-        <test-method signature="calcModulus(int, int, int)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:07:45 AST" name="calcModulus" data-provider="modulusData" finished-at="2020-07-03T03:07:45 AST" duration-ms="1" status="PASS">
+        <test-method signature="calcModulus(int, int, int)[pri:0, instance:com.assignments.assignment1@6b26e945]" started-at="2020-07-03T03:15:49 AST" name="calcModulus" data-provider="modulusData" finished-at="2020-07-03T03:15:49 AST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
