@@ -14,8 +14,7 @@
     <classes>
       <class name="com.assignments.assignment1">
         <methods>
-          <include name="calcDivReal"/>
-          <include name="calcDivInt"/>
+          <include name="calcSubraction" invocation-numbers="2"/>
         </methods>
       </class> <!-- com.assignments.assignment1 -->
     </classes>
