@@ -19,7 +19,7 @@
         <version>3.0.0-M3</version>
         <configuration>
             <suiteXmlFiles>
-                <suiteXmlFile>assignment1.xml</suiteXmlFile>
+                <suiteXmlFile>C:\Users\PREDATOR\Downloads\SCUBA_Basher\SCUBA_Training\src\test\java\com\assignments\assignment1.xml</suiteXmlFile>
             </suiteXmlFiles>
         </configuration>
     </plugin>
